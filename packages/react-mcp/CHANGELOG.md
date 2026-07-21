@@ -1,5 +1,15 @@
 # @assistant-ui/react-mcp
 
+## 0.0.19
+
+### Patch Changes
+
+- [#5029](https://github.com/assistant-ui/assistant-ui/pull/5029) [`908157b`](https://github.com/assistant-ui/assistant-ui/commit/908157b2e403ebec4c2009a92c06a16d1730446b) - fix: ignore malformed persisted MCP connection timeout values ([@Kinfe123](https://github.com/Kinfe123))
+
+- Updated dependencies [[`79034bb`](https://github.com/assistant-ui/assistant-ui/commit/79034bbfe8da82c3739969bf7b4cc744910d203a), [`19cfdcd`](https://github.com/assistant-ui/assistant-ui/commit/19cfdcdfdc6778a3ed3f607f694787fe1ef54612), [`5e4dd9f`](https://github.com/assistant-ui/assistant-ui/commit/5e4dd9fd00161fd79df60821d2b9af0cd7ebcefd), [`85d4976`](https://github.com/assistant-ui/assistant-ui/commit/85d49764ca3585fc553257dafa00a47830727e36), [`5135400`](https://github.com/assistant-ui/assistant-ui/commit/5135400d054297889312b9ae03fe803443ee2fae), [`ca80153`](https://github.com/assistant-ui/assistant-ui/commit/ca801537e02bbab09532d0f505992778d282dddb), [`9a343db`](https://github.com/assistant-ui/assistant-ui/commit/9a343db871ceab7e574bfcec9ab22af0ddaf1841), [`c1b1750`](https://github.com/assistant-ui/assistant-ui/commit/c1b175040e49ecb82b43d2713536aef7a1f2300e)]:
+  - @assistant-ui/core@0.2.22
+  - assistant-stream@0.3.27
+
 ## 0.0.18
 
 ### Patch Changes

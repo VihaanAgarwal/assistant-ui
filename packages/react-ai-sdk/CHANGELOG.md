@@ -1,5 +1,26 @@
 # @assistant-ui/react-ai-sdk
 
+## 1.4.0
+
+### Minor Changes
+
+- [#5075](https://github.com/assistant-ui/assistant-ui/pull/5075) [`65f4a1f`](https://github.com/assistant-ui/assistant-ui/commit/65f4a1f3260d12411be954ad8adef76bc96d42d8) - feat: formally open the AI SDK v7 line at 1.4. `1.3.41` shipped the v7 hard-dep switch as a patch inside the documented v6 line; from `1.4.0` the mapping is explicit: `^1.4` targets `ai@^7`, v6 users pin `1.3.40`, v5 users pin `1.1.21`. ([@okisdev](https://github.com/okisdev))
+
+### Patch Changes
+
+- [#5070](https://github.com/assistant-ui/assistant-ui/pull/5070) [`8719ba3`](https://github.com/assistant-ui/assistant-ui/commit/8719ba31f3d3d0ec7be519ab3ace0f8c0ffc2a5d) - fix: close MCP clients that resolve after a connection timeout ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#5051](https://github.com/assistant-ui/assistant-ui/pull/5051) [`26ef13d`](https://github.com/assistant-ui/assistant-ui/commit/26ef13d296aa691a24ab4132d9d307f77d5944b1) - fix(react-ai-sdk): persist pending tool approvals and append post-approval continuations ([@okisdev](https://github.com/okisdev))
+
+- [#5087](https://github.com/assistant-ui/assistant-ui/pull/5087) [`6c652b9`](https://github.com/assistant-ui/assistant-ui/commit/6c652b972c30a47745baeafe608a65426dd68668) - fix: serialize history persistence to prevent duplicate appends ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#5052](https://github.com/assistant-ui/assistant-ui/pull/5052) [`0dbc58a`](https://github.com/assistant-ui/assistant-ui/commit/0dbc58a1c4794008e7b54a99447c19648f2f8059) - fix(react-ai-sdk): skip rewriting unchanged messages after each run ([@okisdev](https://github.com/okisdev))
+
+- Updated dependencies [[`79034bb`](https://github.com/assistant-ui/assistant-ui/commit/79034bbfe8da82c3739969bf7b4cc744910d203a), [`7fde141`](https://github.com/assistant-ui/assistant-ui/commit/7fde141c094d122034804f9b9e19b4f17fb516ba), [`19cfdcd`](https://github.com/assistant-ui/assistant-ui/commit/19cfdcdfdc6778a3ed3f607f694787fe1ef54612), [`5e4dd9f`](https://github.com/assistant-ui/assistant-ui/commit/5e4dd9fd00161fd79df60821d2b9af0cd7ebcefd), [`85d4976`](https://github.com/assistant-ui/assistant-ui/commit/85d49764ca3585fc553257dafa00a47830727e36), [`5135400`](https://github.com/assistant-ui/assistant-ui/commit/5135400d054297889312b9ae03fe803443ee2fae), [`ca80153`](https://github.com/assistant-ui/assistant-ui/commit/ca801537e02bbab09532d0f505992778d282dddb), [`9a343db`](https://github.com/assistant-ui/assistant-ui/commit/9a343db871ceab7e574bfcec9ab22af0ddaf1841), [`c1b1750`](https://github.com/assistant-ui/assistant-ui/commit/c1b175040e49ecb82b43d2713536aef7a1f2300e)]:
+  - @assistant-ui/core@0.2.22
+  - assistant-cloud@0.1.36
+  - assistant-stream@0.3.27
+
 ## 1.3.41
 
 ### Patch Changes

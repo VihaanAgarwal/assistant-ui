@@ -1,5 +1,16 @@
 # @assistant-ui/react-pi
 
+## 0.0.8
+
+### Patch Changes
+
+- [#5056](https://github.com/assistant-ui/assistant-ui/pull/5056) [`b479898`](https://github.com/assistant-ui/assistant-ui/commit/b479898881317d0565bf9b7ab3d268d950e1c8c3) - fix: validate JSON payloads returned by the Pi HTTP client ([@Kinfe123](https://github.com/Kinfe123))
+
+- [#5010](https://github.com/assistant-ui/assistant-ui/pull/5010) [`a120cc2`](https://github.com/assistant-ui/assistant-ui/commit/a120cc22ce43818a9dac39b00cec38af4762a415) - fix: validate event stream response content types ([@Kinfe123](https://github.com/Kinfe123))
+
+- Updated dependencies [[`79034bb`](https://github.com/assistant-ui/assistant-ui/commit/79034bbfe8da82c3739969bf7b4cc744910d203a), [`19cfdcd`](https://github.com/assistant-ui/assistant-ui/commit/19cfdcdfdc6778a3ed3f607f694787fe1ef54612), [`ca80153`](https://github.com/assistant-ui/assistant-ui/commit/ca801537e02bbab09532d0f505992778d282dddb), [`c1b1750`](https://github.com/assistant-ui/assistant-ui/commit/c1b175040e49ecb82b43d2713536aef7a1f2300e)]:
+  - @assistant-ui/core@0.2.22
+
 ## 0.0.7
 
 ### Patch Changes
